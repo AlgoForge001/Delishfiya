@@ -5,9 +5,7 @@ body {
 
 #navbar-example2 {
   background-color: #ede7da; 
-  position:sticky;
-  top: 70px;  /* ya jo bhi theme ho */
-  z-index: 1050;               /* Bootstrap navbar safe z-index */
+               /* Bootstrap navbar safe z-index */
 }
 
 .navbar-custom {
