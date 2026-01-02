@@ -1,0 +1,454 @@
+body {
+    background-color: #113328;
+}
+
+
+#navbar-example2 {
+  background-color: #ede7da; 
+  position:sticky;
+  top: 70px;  /* ya jo bhi theme ho */
+  z-index: 1050;               /* Bootstrap navbar safe z-index */
+}
+
+.navbar-custom {
+    background-color: #550b2c;
+    
+
+}
+.cust{
+  background-color: #d49a56;
+}
+
+.cust-head{
+      font-family: "Cormorant SC", serif;
+}
+.cust-head li a{
+      font-family: "Cormorant SC", serif;
+      color: #030200;
+}
+.h3 {
+    text-align: center;
+    font-family: "Cormorant SC", serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 10px;
+    color: rgb(70, 45, 13);
+
+}
+.h1 {
+    text-align: center;
+    font-family: "Cormorant SC", serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 10px;
+    color: antiquewhite;
+
+}
+
+
+
+.carousel-item {
+    height: 70vh;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.container{
+    background-color: #b5cae2;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.between{
+    background-color: #b5cae2;
+}
+
+
+
+@media (max-width: 768px) {
+    .carousel-item {
+        height: 40vh;
+    }
+}
+
+
+
+.cust-head li a{
+      font-family: "Cormorant SC", serif;
+      color: #853a14;
+      font-size: 1.11rem;
+}
+
+.container-custom img {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.container-custom {
+    position: relative;
+    padding: 0;
+    background-color: rgb(66, 30, 3);
+
+}
+
+.container-custom h3 i {
+    position: absolute;
+    color: rgb(118, 78, 23);
+    top: 30%;
+    left: 25%;
+    font-size: 3rem;
+}
+
+
+.row-custom img {
+    height: 350px;
+    margin-bottom: 30px;
+    border: 2px solid black;
+    margin-top: 20px;
+    border-radius: 20px;
+
+}
+
+.container2 {
+    background-color: #552619;
+    margin-top: 20px;
+
+}
+
+.row-custom {
+    gap: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.row img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 14px;
+}
+
+/* .col {
+    border: 2px solid black;
+
+    border-radius: 20px;
+
+} */
+
+
+
+.more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
+
+}
+
+.more-text {
+
+    background-color: bisque;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    width: 180px;
+
+}
+
+
+
+
+
+@media (max-width:480px) {
+
+    .container-custom h3 i {
+        font-size: 1.5rem;
+    }
+
+/* 
+    .row {
+        gap: 5px;
+        padding: 5px;
+
+    } */
+
+    /* .col {
+
+
+        height: 300px;
+        width: 120px;
+        border-radius: 5px;
+        border: 0.5px solid rgb(115, 65, 65);
+
+    } */
+
+    /* .col img {
+        height: 160px;
+        width: 120px;
+        margin-top: 10px;
+        border-radius: 5px;
+
+    } */
+
+    .more {
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
+
+
+}
+
+
+
+
+
+/* ================= FOOTER ================= */
+
+.footer {
+  background-color: #0f3d2e; /* dark green */
+  color: #f5f5f5;
+  padding: 60px 20px 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* ---------- LEFT ---------- */
+
+.footer-left {
+  flex: 1 1 250px;
+}
+
+.footer-left img {
+  max-width: 180px;
+  margin-bottom: 15px;
+}
+
+.footer-left .stay {
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 1rem;
+}
+
+.socials i {
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+
+.socials a {
+  color: inherit;
+}
+
+/* ---------- CENTER ---------- */
+
+.footer-center {
+  flex: 1 1 300px;
+  text-align: center;
+}
+
+.footer-center h2 {
+  font-family: 'Cinzel', serif;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+  color: #d4af37; /* gold */
+}
+
+.footer-center p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+/* ---------- RIGHT ---------- */
+
+.footer-right {
+  flex: 1 1 300px;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.footer-col h4 {
+  font-size: 1rem;
+  margin-bottom: 12px;
+  color: #d4af37;
+  letter-spacing: 1px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+  opacity: 0.9;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+
+
+.footer-col ul li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px) {
+
+  .footer {
+    padding: 40px 15px 20px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-left,
+  .footer-center,
+  .footer-right {
+    flex: 1 1 100%;
+  }
+
+  .footer-right {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .socials {
+    justify-content: center;
+  }
+}
+
+
+
+/* ================= WHY DELISHFIYA ================= */
+
+.info {
+  background-color: #b5cae2;        /* dark green */
+  color: #5b320c;
+  padding: 70px 20px;
+  text-align: center;
+}
+
+/* Heading */
+.info-head p {
+  font-family: 'Cinzel', serif;
+  font-size: 2.2rem;
+  letter-spacing: 2px;
+  color: #440a1e;                  /* gold */
+  margin-bottom: 50px;
+}
+
+/* Cards wrapper */
+.info-cards {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Individual card */
+.info-card {
+  background-color: #ede7da;
+  padding: 40px 25px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 320px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.35);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+
+
+/* Icon */
+.info-img {
+  margin-bottom: 20px;
+}
+
+.info-img i {
+  color: #480b19;
+}
+
+/* Title */
+.head1 p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+/* Description */
+.head2 p {
+  font-size: 0.95rem;
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px) {
+
+  .info {
+    padding: 50px 15px;
+  }
+
+  .info-head p {
+    font-size: 1.8rem;
+    margin-bottom: 35px;
+  }
+
+  .info-cards {
+    gap: 20px;
+  }
+
+  .info-card {
+    max-width: 100%;
+    padding: 30px 20px;
+  }
+}
